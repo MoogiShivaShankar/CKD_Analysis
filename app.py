@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model and label encoders
-model = joblib.load('ckd_model.pkl')
-label_encoders = joblib.load('label_encoders.pkl')
+model = joblib.load('D:\\CKD_Analysis\\ckd_model.pkl')
+label_encoders = joblib.load('D:\\CKD_Analysis\\label_encoders.pkl')
 
 # Define a function to preprocess input data
 def preprocess_input(input_data):
